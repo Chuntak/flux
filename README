@@ -1,0 +1,24 @@
+This is written in SWI-Prolog, to download visit: http://www.swi-prolog.org/download/stable
+and follow its instructions.
+
+To run simply load in the logic by typing on swi-prolog console:
+    [run].
+
+It uses the pre-defined predicate findall and length, if for some reason it throws and error,
+you'll have to import it yourself.
+
+A sample input is provided below:
+
+grid(4,4).
+robot(0,0).
+person(2,0).
+
+These will load in the facts.
+
+To start the robot type in:
+main.
+
+The output will be the actions the robots taken, and for every state that
+the robot moves, it will print its current state.
+
+There are some bugs in the AI, because of the time constraint, I do not have the time to finish debugging.
