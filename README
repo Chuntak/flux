@@ -2,16 +2,22 @@ This is written in SWI-Prolog, to download visit: http://www.swi-prolog.org/down
 and follow its instructions.
 
 To run simply load in the logic by typing on swi-prolog console:
-    [run].
+    ?- [run].
+    true.
+    ?- loadProgram.
+    true.
 
 It uses the pre-defined predicate findall and length, if for some reason it throws and error,
 you'll have to import it yourself.
 
 A sample input is provided below:
 
-grid(4,4).
-robot(0,0).
-person(2,0).
+    ?- grid(4,4).
+    true.
+    ?- robot(0,0).
+    true.
+    ?- person(2,0).
+    true.
 
 These will load in the facts.
 
